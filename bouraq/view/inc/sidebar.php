@@ -4,37 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/dashboard.css">
-    <link rel="stylesheet" href="../css/sidebar.css">
-    <title>dashboard</title>
+    <link rel="stylesheet" href="http://localhost/youcode/4test/view/assets/css/sidebar.css">
+    <title>Document</title>
 </head>
-<body id="body-pd">
+<body>
+
 
     <div class="l-navbar" id="navbar">
         <nav class="nav">
             <div>
                 <div class="nav__brand">
                     <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
-                    <a href="#" class="nav__logo">Bouraq</a>
+                    <a href="#" class="nav__logo">Book Your Train</a>
                 </div>
                 <div class="nav__list">
                     <a href="#" class="nav__link active">
                         <ion-icon name="home-outline" class="nav__icon"></ion-icon>
                         <span class="nav__name">Dashboard</span>
                     </a>
-                    <a href="#" class="nav__link">
-                        <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                    <a href="trip.html" class="nav__link">
+                        <ion-icon name="train-outline" style="font-size: 1.5rem;"></ion-icon>
                         <span class="nav__name">Trip</span>
                     </a>
 
                     <a href="#" class="nav__link">
                         <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
-                        <span class="nav__name">Analytics</span>
-                    </a>
-                    <a href="#" class="nav__link">
-                        <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
-                        <span class="nav__name">Settings</span>
+                        <span class="nav__name">Client</span>
                     </a>
                 </div>
             </div>
@@ -46,24 +41,5 @@
         </nav>
     </div>
     
-    <section>
-        <h1>hello</h1>
-    </section>
-
-
-
-    
-       
-    
-    <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- sidebar.js -->
-    <script src="../js/sidebar.js"></script>
-
-    <!-- Ionicons -->
-        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-
-
 </body>
 </html>
